@@ -6,7 +6,7 @@ ec2:
   credentials: kubenodes
   image: ami-835b4efa
   instance_type: t2.micro
-  subnet: subnet-5381541f
+  vpc_subnet_id: subnet-5381541f
   public_ip: yes
   tags:
     Name: webserver
